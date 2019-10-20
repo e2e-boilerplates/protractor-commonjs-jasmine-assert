@@ -1,4 +1,4 @@
-# Protractor: (commonjs)
+# Protractor: (commonjs, assert)
 Protractor end-to-end test automation boilerplate project. Using: commonjs & assert.
     
 ## Getting Started
@@ -6,4 +6,5 @@ Protractor end-to-end test automation boilerplate project. Using: commonjs & ass
     git clone git@github.com:e2e-boilerplates/protractor-commonjs-assert.git
     cd protractor-commonjs-assert
     npm install
-    npm run test 
+    npm run upadte-webderiver
+    npm run test
