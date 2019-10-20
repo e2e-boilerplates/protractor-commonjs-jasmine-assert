@@ -1,5 +1,5 @@
 {
-  "name": "protractor-commonjs",
+  "name": "protractor-commonjs-assert",
   "version": "1.0.0",
   "description": "Protractor end-to-end test automation boilerplate project.",
   "scripts": {
@@ -8,7 +8,11 @@
     "test": "protractor protractor.conf.js",
     "lint": "npx eslint --ext .js ./ --fix"
   },
-  "keywords": ["protractor", "boilerplate", "example"],
+  "keywords": [
+    "protractor",
+    "boilerplate",
+    "example"
+  ],
   "author": "Girma Nigusse",
   "license": "MIT",
   "devDependencies": {
