@@ -1,5 +1,5 @@
 # Protractor: (commonjs)
-Protractor end-to-end test automation boilerplate project. Using: commonjs.
+Protractor end-to-end test automation boilerplate project. Using: commonjs & assert.
     
 ## Getting Started
 
