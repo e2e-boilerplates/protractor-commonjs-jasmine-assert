@@ -1,4 +1,4 @@
-const { browser, element, Key } = require("protractor");
+const { ExpectedConditions, Key } = require("protractor");
 const assert = require("assert");
 
 describe("google search", () => {
@@ -16,6 +16,8 @@ describe("google search", () => {
   });
 
   it('the page title should start with "Cheese!"', async () => {
+    browser.wait(ExpectedConditions.urlContains("search"), 5000);
+
     const title = await browser.getTitle();
     const words = title.split(" ");
     assert.ok(words[0] === "Cheese!");

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Protractor end-to-end test automation boilerplate project. Using commonjs & assert",
   "scripts": {
-    "upadte-webderiver": "webdriver-manager update",
+    "upadte-webderiver": "npx webdriver-manager update",
     "test": "npx protractor protractor.conf.js",
     "lint": "npx eslint --ext .js ./ --fix"
   },
@@ -21,19 +21,13 @@
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-prettier": "^3.1.1",
     "husky": "^3.0.9",
-    "lint-staged": "^9.4.2",
     "prettier": "^1.18.2",
+    "pretty-quick": "^2.0.0",
     "protractor": "^5.4.2"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "pretty-quick --staged"
     }
-  },
-  "lint-staged": {
-    "*.js": [
-      "eslint --fix",
-      "git add"
-    ]
   }
 }
