@@ -1,8 +1,8 @@
-# Protractor: (CommonJS, Jasmine, and Assert)
+# Protractor: (CommonJS, Jasmine and Assert)
 
 [![GitHub Actions status | e2e-boilerplates/protractor-commonjs-jasmine-assert](https://github.com/e2e-boilerplates/protractor-commonjs-jasmine-assert/workflows/protractor-commonjs-jasmine-assert/badge.svg)](https://github.com/e2e-boilerplates/protractor-commonjs-jasmine-assert/actions?workflow=protractor-commonjs-jasmine-assert)
 
-Protractor end-to-end test automation boilerplate, using: CommonJS, Jasmine, & Assert.
+Protractor end-to-end test automation boilerplate, using: CommonJS, Jasmine and Assert.
 
 ## Getting Started
 

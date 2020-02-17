@@ -1,18 +1,22 @@
 {
-  "name": "protractor-commonjs-assert",
+  "name": "protractor-commonjs-jasmine-assert",
   "version": "1.0.0",
-  "description": "Protractor end-to-end test automation boilerplate project. Using commonjs & assert",
+  "description": "Protractor end-to-end test automation boilerplate, using CommonJS, Jasmine and Assert",
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
     "upadte-webderiver": "npx webdriver-manager update",
-    "test": "npx protractor protractor.conf.js",
-    "test-ci": "npx protractor protractor-ci.conf.js"
+    "upadte-webderiver-ci": "npx webdriver-manager update --versions.chrome=79.0.3945.36",
+    "test": "npx protractor"
   },
   "keywords": [
     "protractor",
     "commonjs",
     "boilerplate",
-    "example"
+    "example",
+    "e2e",
+    "jasmine",
+    "assert",
+    "e2e test"
   ],
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "license": "MIT",
@@ -32,8 +36,5 @@
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
-  },
-  "dependencies": {
-    "puppeteer": "2.1.1"
   }
 }
