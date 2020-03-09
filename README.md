@@ -6,8 +6,12 @@ Protractor end-to-end test automation boilerplate, using Commonjs, Jasmine and A
 
 ## Getting Started
 
-    	git clone git@github.com:e2e-boilerplate/protractor-commonjs-jasmine-assert.git
-    	cd protractor-commonjs-jasmine-assert
-    	npm install
-    	npm run update-webdriver
-    	npm run test
+1. git clone git@github.com:e2e-boilerplate/protractor-commonjs-jasmine-assert.git
+
+2. cd protractor-commonjs-jasmine-assert
+
+3. npm install
+
+4. npm run update-webdriver
+
+5. npm run test
