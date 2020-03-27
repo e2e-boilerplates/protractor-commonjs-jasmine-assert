@@ -5,8 +5,8 @@ const headed = {
   directConnect,
   specs,
   capabilities: {
-    browserName: "chrome"
-  }
+    browserName: "chrome",
+  },
 };
 
 const headless = {
@@ -15,9 +15,9 @@ const headless = {
   capabilities: {
     browserName: "chrome",
     chromeOptions: {
-      args: ["--headless", "--no-sandbox", "--disable-gpu"]
-    }
-  }
+      args: ["--headless", "--no-sandbox", "--disable-gpu"],
+    },
+  },
 };
 
 const config = process.env.GITHUB_ACTIONS ? headless : headed;
