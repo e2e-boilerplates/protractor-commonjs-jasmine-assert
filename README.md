@@ -2,7 +2,7 @@
     
 # Protractor Boilerplate
     
-Protractor end-to-end test automation boilerplate, Using [Commonjs](https://requirejs.org/docs/commonjs.html), [Jasmine](https://jasmine.github.io) and Assert.
+Protractor end-to-end test automation boilerplate, Using [Commonjs](https://requirejs.org/docs/commonjs.html), [Jasmine](https://jasmine.github.io) and [Commonjs](https://nodejs.org/api/assert.html).
     
 ## Getting Started
     
