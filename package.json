@@ -39,7 +39,7 @@
   ],
   "license": "MIT",
   "lint-staged": {
-    "*.{js,json,md}": [
+    "*.{js}": [
       "eslint --fix",
       "prettier --write"
     ]
@@ -52,7 +52,7 @@
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
     "test": "npx protractor",
-    "update:webdriver": "npx webdriver-manager update --gecko false"
+    "update:webdriver": "npx webdriver-manager update --gecko false --versions.chrome=81.0.4044.138"
   },
   "version": "1.0.0"
 }
